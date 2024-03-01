@@ -5,29 +5,8 @@
     {
       "idx": 0,
       "version": "5",
-      "when": 1708456349787,
-      "tag": "0000_special_captain_britain",
-      "breakpoints": true
-    },
-    {
-      "idx": 1,
-      "version": "5",
-      "when": 1708456554789,
-      "tag": "0001_bored_wolverine",
-      "breakpoints": true
-    },
-    {
-      "idx": 2,
-      "version": "5",
-      "when": 1708456659897,
-      "tag": "0002_youthful_blue_marvel",
-      "breakpoints": true
-    },
-    {
-      "idx": 3,
-      "version": "5",
-      "when": 1709030934036,
-      "tag": "0003_hot_otto_octavius",
+      "when": 1709260769509,
+      "tag": "0000_pale_puff_adder",
       "breakpoints": true
     }
   ]
