@@ -6,7 +6,7 @@ import { authLinks } from '../../db/schema'
 import { auth } from '../auth'
 
 export const authenticateFromLink = new Elysia().use(auth).get(
-  '/auth-link/authenticate',
+  'auth-link/authenticate',
   async ({ query, jwt: { sign }, setCookie, set }) => {
     const { code, redirect } = query
 

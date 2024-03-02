@@ -1,5 +1,5 @@
 {
-  "id": "54a4aabf-49a5-44f4-94d2-1c14646f794b",
+  "id": "bc06966e-3234-4392-963b-974ff94aa361",
   "prevId": "00000000-0000-0000-0000-000000000000",
   "version": "5",
   "dialect": "pg",
@@ -20,8 +20,8 @@
           "primaryKey": false,
           "notNull": true
         },
-        "users_id": {
-          "name": "users_id",
+        "user_id": {
+          "name": "user_id",
           "type": "text",
           "primaryKey": false,
           "notNull": true
@@ -36,12 +36,12 @@
       },
       "indexes": {},
       "foreignKeys": {
-        "auth_links_users_id_users_id_fk": {
-          "name": "auth_links_users_id_users_id_fk",
+        "auth_links_user_id_users_id_fk": {
+          "name": "auth_links_user_id_users_id_fk",
           "tableFrom": "auth_links",
           "tableTo": "users",
           "columnsFrom": [
-            "users_id"
+            "user_id"
           ],
           "columnsTo": [
             "id"

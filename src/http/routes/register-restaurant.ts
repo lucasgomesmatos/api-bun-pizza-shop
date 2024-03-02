@@ -26,7 +26,7 @@ export const registerRestaurant = new Elysia().post(
       restaurantName: t.String(),
       managerName: t.String(),
       email: t.String({ format: 'email' }),
-      phone: t.String({ pattern: '^[0-9]{10}$' }),
+      phone: t.String(),
     }),
   },
 )

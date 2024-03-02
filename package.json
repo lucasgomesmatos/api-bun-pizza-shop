@@ -11,7 +11,10 @@
     "migrate": "bun src/db/migrate.ts",
     "seed": "bun src/db/seed.ts",
     "studio": "drizzle-kit studio",
-    "lint": "eslint --fix src --ext ts"
+    "lint": "eslint --fix src --ext ts",
+    "services:up": "docker compose  up -d",
+    "services:stop": "docker compose stop",
+    "services:down": "docker compose down"
   },
   "dependencies": {
     "@elysiajs/cookie": "^0.8.0",

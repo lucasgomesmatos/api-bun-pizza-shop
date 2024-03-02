@@ -22,7 +22,7 @@ export const sendAuthLink = new Elysia().post(
     const authLinkCode = createId()
 
     await db.insert(authLinks).values({
-      usersId: userFromEmail.id,
+      userId: userFromEmail.id,
       code: authLinkCode,
     })
 
