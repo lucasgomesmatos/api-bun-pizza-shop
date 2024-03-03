@@ -5,6 +5,7 @@ import { env } from '../env/env'
 import { authenticateFromLink } from './routes/authenticate-from-link'
 import { registerRestaurant } from './routes/register-restaurant'
 import { sendAuthLink } from './routes/send-auth-link'
+import { signOut } from './routes/sign-out'
 
 const app = new Elysia()
   .use(swagger())
@@ -17,6 +18,7 @@ const app = new Elysia()
   .use(registerRestaurant)
   .use(sendAuthLink)
   .use(authenticateFromLink)
+  .use(signOut)
 
 app.listen(env.PORT, () => {
   console.log('Server is running on port 3333')
